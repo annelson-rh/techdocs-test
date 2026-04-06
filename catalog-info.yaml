@@ -4,7 +4,7 @@ metadata:
   name: techdocs-test
   description: Test component for TechDocs
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/annelson-rh/techdocs-test
 spec:
   type: documentation
   lifecycle: experimental
