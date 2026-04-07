@@ -1,4 +1,6 @@
 site_name: TechDocs Test
+repo_url: https://github.com/annelson-rh/techdocs-test
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
