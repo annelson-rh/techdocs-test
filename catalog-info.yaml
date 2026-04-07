@@ -8,4 +8,4 @@ metadata:
 spec:
   type: documentation
   lifecycle: experimental
-  owner: guests
+  owner: user:development/guest
