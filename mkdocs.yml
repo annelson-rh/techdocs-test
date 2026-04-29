@@ -4,5 +4,22 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Deployment: architecture/deployment.md
+      - Network Topology: architecture/network-topology.md
+  - Runbooks:
+      - Incident Response: runbooks/incident-response.md
+      - Troubleshooting: runbooks/troubleshooting.md
+  - Reference:
+      - API: reference/api.md
+      - Configuration: reference/configuration.md
+      - Formatting Guide: reference/formatting.md
 plugins:
   - techdocs-core
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
